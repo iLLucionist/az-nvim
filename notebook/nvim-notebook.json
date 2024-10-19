@@ -1,0 +1,60 @@
+{
+	"name": "nvim-notebook",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "synspnvimplugin",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "ca8399f4-73e3-4bd9-a6c0-daedf5a688cb"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/7af0db75-7fbb-4988-8a64-a8c4ce306a76/resourceGroups/rg-nvim-plugin-dev/providers/Microsoft.Synapse/workspaces/sw-nvim-plugin-dev/bigDataPools/synspnvimplugin",
+				"name": "synspnvimplugin",
+				"type": "Spark",
+				"endpoint": "https://sw-nvim-plugin-dev.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/synspnvimplugin",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"automaticScaleJobs": false
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"print(\"hello\")"
+				],
+				"execution_count": 2
+			}
+		]
+	}
+}
