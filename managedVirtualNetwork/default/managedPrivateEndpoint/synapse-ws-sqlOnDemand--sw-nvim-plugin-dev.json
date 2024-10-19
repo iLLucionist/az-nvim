@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--sw-nvim-plugin-dev",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/7af0db75-7fbb-4988-8a64-a8c4ce306a76/resourceGroups/rg-nvim-plugin-dev/providers/Microsoft.Synapse/workspaces/sw-nvim-plugin-dev",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"sw-nvim-plugin-dev-ondemand.c8da1808-4515-4648-ba54-3dfe05cd0dde.sql.azuresynapse.net"
+		]
+	}
+}

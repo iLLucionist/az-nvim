@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--sw-nvim-plugin-dev-sanvimplugindev",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/7af0db75-7fbb-4988-8a64-a8c4ce306a76/resourceGroups/rg-nvim-plugin-dev/providers/Microsoft.Storage/storageAccounts/sanvimplugindev",
+		"groupId": "dfs",
+		"fqdns": [
+			"sanvimplugindev.dfs.core.windows.net"
+		]
+	}
+}
